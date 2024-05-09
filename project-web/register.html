@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="StyleSheet" href="register.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<!-- body -->
+<body>
+    <div class="Body">
+
+    <div class="contaner">
+   <div class="form-box">
+    <form action="" name="formfill" onsubmit="return validatin()">
+        <h2>Register</h2>
+        <p id="result"></p>
+    <div class="input-box">
+        <i class='bx bxs-user'></i>
+        <input type="text" name="username" placeholder="user name">
+    </div>
+    <div class="input-box">
+        <i class='bx bxs-envelope'></i>
+        <input type="email" name="email" placeholder="your Email">
+    </div>
+    <div class="input-box">
+        <i class='bx bxs-lock'></i>
+        <input type="password" name="password" placeholder="your password">
+    </div>
+    <div class="input-box">
+        <i class='bx bxs-lock'></i>
+        <input type="password" name="cpassword" placeholder="confirm password">
+    </div>
+    <div class="input-box">
+        <i class='bx bxs-phone'></i>
+        <input type="tel" name="phonenumber" placeholder="phone number">
+    </div>
+    <div class="button">
+        <input type="submit"  class="btn" value="Register">
+    </div>
+    <div class="group">
+        <span><a href="#">Forget-password</a></span>
+        <span><a href="login.html">login</a></span>
+    </div>
+
+     </form>
+   </div>
+    </div>
+</div>
+    <script src="register.js"></script>
+     <!-- footer -->
+    
+     <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">our Team</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2023; Designed by <span class="designer">Noman</span></p>
+        </div>
+    </footer>
+    </body>
+    </html>
